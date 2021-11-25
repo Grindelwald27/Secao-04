@@ -1,0 +1,7 @@
+print('Informe o início do evento')
+hora_i = int(input('Informe as horas: '))
+min_i = int(input('Informe os minutos: '))
+seg_i = int(input('Informe os segundos: '))
+print(f'Evento iniciado em {hora_i}h:{min_i}min:{seg_i}s')
+duracao = int(input('Informe a duração do evento em segundos: '))
+print(f'O evento irá acabar em {hora_i}h:{min_i}:{seg_i + duracao}s')
